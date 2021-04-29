@@ -16,7 +16,7 @@ body, html {
 
 .bg {
   /* The image used */
-  background-image: url("images\kindnessvallyer_cover.jpg");
+  background-image: url("../images/kindnessvallyer_cover.jpg");
 
   /* Full height */
   height: 100%;
