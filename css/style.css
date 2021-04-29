@@ -2,10 +2,15 @@
   background-color: lightgrey;
 } */
 
+@font-face {
+  font-family: "moon";
+  src: url(Moon2.0-Bold.otf);
+}
+
 h1 {
   color: rgb(186, 226, 186);
   margin-left: 20px;
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: "moon", monospace;
 }
 
 .p2 {
@@ -13,8 +18,11 @@ h1 {
 }
 
 .p3 {
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: "moon", monospace;
 }
+
+
+
 
 body, html {
   height: 100%;
@@ -55,7 +63,7 @@ body, html {
   background-color: rgb(186, 226, 186);
   text-align: center;
   cursor: pointer;
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: "moon", monospace;
 
 }
 
@@ -84,7 +92,7 @@ body, html {
 	-moz-user-select:none;
 	-ms-user-select:none;
 	user-select:none;
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: "moon", monospace;
   text-decoration: none;
 }
 .button-link:hover {
