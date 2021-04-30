@@ -4,13 +4,13 @@
 
 @font-face {
   font-family: "moon";
-  src: url(Moon2.0-Bold.otf);
+  src: url(alaska.ttf);
 }
 
 h1 {
   color: rgb(186, 226, 186);
   margin-left: 20px;
-  font-family: "moon", monospace;
+  font-family: "moon";
 }
 
 .p2 {
