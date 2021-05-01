@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "moon";
-  src: url(alaska.ttf);
+  src: url("css\alaska.ttf");
 }
 
 h1 {
