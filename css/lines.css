@@ -1,26 +1,23 @@
 @charset "UTF-8";
 
- html, body {
-	 background: #111;
+html, body {
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
- #container {
-	 background: #111;
+#container {
 
-   position: fixed;
-   top: 60%;
-   left: 73%;
-   transform: translate(-50%, -50%);
-
+  position: fixed;
+  top: 60%;
+  left: 73%;
+  transform: translate(-50%, -50%);
 }
-
-
 
 .centrd {
   display: flex;
   justify-content: center;
 }
-
 
 .btm {
   position: fixed;
