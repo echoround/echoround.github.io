@@ -512,19 +512,19 @@ font-weight: 700;
 }
 
 .animatedLine:nth-child(1) {
-  left: 33%;
+  left: 15%;
 }
 
 .animatedLine:nth-child(1)::after {
-  animation-delay: -2s;
+  animation-delay: -16s;
 }
 
 .animatedLine:nth-child(2) {
-  left: 66%;
+  left: 15%;
 }
 
 .animatedLine:nth-child(2)::after {
-  animation-delay: -1s;
+  animation-delay: -17s;
 }
 
 .animatedLine::after {
@@ -538,7 +538,7 @@ font-weight: 700;
   background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 75%, #ffffff 100%);
   background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 75%, #ffffff 100%);
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 75%, #ffffff 100%);
-  animation: animatedLine 5s 0s infinite;
+  animation: animatedLine 12s 0s infinite;
   animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
   animation-fill-mode: forwards;
 }
