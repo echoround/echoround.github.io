@@ -25,6 +25,8 @@ background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-2
 background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 background-size: 4px;
 
+color: #F8F0E3;
+
 }
 
 
@@ -324,15 +326,15 @@ font-weight: 700;
 }
 
 .blob.white {
-	background: white;
-	box-shadow: 0 0 0 0 rgba(255, 255, 255, 1);
+	background: #F8F0E3;
+	box-shadow: 0 0 0 0 #F8F0E3;
 	animation: pulse-white 2s infinite;
 }
 
 @keyframes pulse-white {
 	0% {
 		transform: scale(0.95);
-		box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+		box-shadow: 0 0 0 0 #F8F0E3;
 	}
 
 	70% {
@@ -599,7 +601,7 @@ font-weight: 700;
   background-color: #0000FF;
   border: 2px solid #0000FF;
   box-sizing: border-box;
-  color: #fff;
+  color: #F8F0E3;
   cursor: pointer;
   display: inline-flex;
   fill: #000;
@@ -619,6 +621,11 @@ font-weight: 700;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+}
+
+.btnUnderline{
+
+  border-bottom: 10px solid #F8F0E3;
 }
 
 .button-58:focus {
