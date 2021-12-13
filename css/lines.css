@@ -3,15 +3,8 @@
 html, body {
   background: #111;
 }
-#container {
-  background: #111;
-  height: 100vh;
-}
-#stats {
-  position: absolute;
-  right: 10px;
-  top: 10px;
-}
+
+
 /* Info */
 @keyframes show-info {
   0% {
@@ -26,13 +19,12 @@ html, body {
   transform-style: preserve-3d;
   transform: perspective(800px);
   font-family: "Quantico", sans-serif;
-  position: absolute;
+
   font-size: 12px;
   opacity: 0.8;
   color: #fff;
-  width: 1000px;
-  left: 0px;
-  top: 20px;
+
+
 }
 .info:hover {
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.05);
