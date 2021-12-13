@@ -5,9 +5,7 @@ html, body {
 }
 #container {
   background: #111;
-  position: absolute;
-  left: 50%;
-  top: 50%;
+  height: 100vh;
 }
 #stats {
   position: absolute;
@@ -32,7 +30,7 @@ html, body {
   font-size: 12px;
   opacity: 0.8;
   color: #fff;
-  width: 220px;
+  width: 1000px;
   left: 0px;
   top: 20px;
 }
