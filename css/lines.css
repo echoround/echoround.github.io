@@ -41,6 +41,13 @@ background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, F
   transform: translate(-50%, -50%);
 }
 
+.btm-centre {
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 
 
