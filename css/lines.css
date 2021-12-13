@@ -46,11 +46,16 @@ footer {
 #container {
 
   position: fixed;
+
   top: 60%;
-  left: 73%;
+  left: 100%;
+
   transform: translate(-50%, -50%);
+
   max-width: 100%;
   height: auto;
+
+
 }
 
 .centrd {

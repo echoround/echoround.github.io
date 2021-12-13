@@ -1,7 +1,7 @@
 
-var NUM_PARTICLES = ( ( ROWS = 100 ) * ( COLS = 300 ) ),
+var NUM_PARTICLES = ( ( ROWS = 100 ) * ( COLS = 600 ) ),
     THICKNESS = Math.pow( 80, 2.5 ),
-    SPACING = 3,
+    SPACING = 4,
     MARGIN = 100,
     COLOR = 220,
     DRAG = 0.95,
