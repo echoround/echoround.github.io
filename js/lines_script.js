@@ -46,6 +46,19 @@ function init() {
   container = document.getElementById('container');
   canvas = document.createElement('canvas');
 
+
+  const	body = document.querySelector('body')
+  const twitter = document.querySelector('.twitter')
+
+  twitter.addEventListener("mouseover", function () {
+      body.classList.add('linked')
+  },false)
+
+  twitter.addEventListener("mouseout", function () {
+      body.classList.remove('linked')
+  }, false)
+
+
   ctx = canvas.getContext( '2d' );
   tog = true;
 
