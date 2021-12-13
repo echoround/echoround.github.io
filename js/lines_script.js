@@ -45,8 +45,8 @@ particle = {
 
 function init() {
 
-  container = document.getElementById( 'container' );
-  canvas = document.createElement( 'canvas' );
+  container = document.getElementById('container');
+  canvas = document.createElement('canvas');
 
   ctx = canvas.getContext( '2d' );
   man = false;
