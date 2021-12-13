@@ -4,6 +4,12 @@ html, body {
   background: #111;
 }
 
+#container {
+  background: #111;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
 
 /* Info */
 @keyframes show-info {
