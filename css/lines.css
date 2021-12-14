@@ -1,9 +1,6 @@
 @charset "UTF-8";
 
-/* * {
-  margin: 0;
-  padding: 0;
-} */
+
 
 html, body {
   background: #0f0c29;  /* fallback for old browsers */
@@ -17,14 +14,7 @@ background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, F
 
 
 
-
-
-
-
-
-
-
-/* background-size: 4px; */
+background-size: 6px;
 
 color: #F8F0E3;
 
