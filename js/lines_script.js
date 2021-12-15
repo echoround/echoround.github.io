@@ -1,6 +1,6 @@
 
 var NUM_PARTICLES = ( ( ROWS = 100 ) * ( COLS = 600 ) ),
-    THICKNESS = Math.pow( 80, 2.5 ),
+    THICKNESS = Math.pow( 15, 4 ),
     SPACING = 4,
     MARGIN = 100,
     COLOR = 220,
