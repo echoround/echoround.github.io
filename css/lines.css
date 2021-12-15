@@ -403,15 +403,15 @@ font-weight: 700;
 }
 
 .blob.yellow {
-	background: rgba(255, 177, 66, 1);
-	box-shadow: 0 0 0 0 rgba(255, 177, 66, 1);
+	background: #fcd56a;
+	box-shadow: 0 0 0 0 #fcd56a;
 	animation: pulse-yellow 2s infinite;
 }
 
 @keyframes pulse-yellow {
 	0% {
 		transform: scale(0.95);
-		box-shadow: 0 0 0 0 rgba(255, 177, 66, 0.7);
+		box-shadow: 0 0 0 0 #fcd56a;
 	}
 
 	70% {
@@ -633,7 +633,7 @@ font-weight: 700;
 
 .btnUnderline{
 
-  border-bottom: 10px solid rgba(255, 177, 66, 1);
+  border-bottom: 10px solid #fcd56a;
 }
 
 .button-58:focus {
@@ -641,15 +641,15 @@ font-weight: 700;
 }
 
 .button-58:hover {
-  background-color: rgba(255, 177, 66, 1);
-  border-color: rgba(255, 177, 66, 1);
-  fill: rgba(255, 177, 66, 1);
+  background-color: #fcd56a;
+  border-color: #fcd56a;
+  fill: #fcd56a;
 }
 
 .button-58:active {
-  background-color: rgba(255, 177, 66, 1);
-  border-color: rgba(255, 177, 66, 1);
-  fill: rgba(255, 177, 66, 1);
+  background-color: #fcd56a;
+  border-color: #fcd56a;
+  fill: #fcd56a;
 }
 
 @media (min-width: 768px) {
