@@ -12,13 +12,13 @@ html, body {
 background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-background: #01122e;
+background: #01041c;
 
-background: -webkit-linear-gradient(to right, #01122e, #232526);
-background: linear-gradient(to right,  #01122e, #232526);
+background: -webkit-linear-gradient(to right, #01041c, #01041c);
+background: linear-gradient(to right,  #01041c, #01041c);
 
 
-background-size: 4px;
+background-size: 1px;
 
 
 
@@ -403,15 +403,15 @@ font-weight: 700;
 }
 
 .blob.yellow {
-	background: #fcd56a;
-	box-shadow: 0 0 0 0 #fcd56a;
+	background: #8383a7;
+	box-shadow: 0 0 0 0 #8383a7;
 	animation: pulse-yellow 2s infinite;
 }
 
 @keyframes pulse-yellow {
 	0% {
 		transform: scale(0.95);
-		box-shadow: 0 0 0 0 #fcd56a;
+		box-shadow: 0 0 0 0 #8383a7;
 	}
 
 	70% {
@@ -633,7 +633,7 @@ font-weight: 700;
 
 .btnUnderline{
 
-  border-bottom: 10px solid #fcd56a;
+  border-bottom: 10px solid #8383a7;
 }
 
 .button-58:focus {
@@ -641,15 +641,15 @@ font-weight: 700;
 }
 
 .button-58:hover {
-  background-color: #fcd56a;
-  border-color: #fcd56a;
-  fill: #fcd56a;
+  background-color: #8383a7;
+  border-color: #8383a7;
+  fill: #8383a7;
 }
 
 .button-58:active {
-  background-color: #fcd56a;
-  border-color: #fcd56a;
-  fill: #fcd56a;
+  background-color: #8383a7;
+  border-color: #8383a7;
+  fill: #8383a7;
 }
 
 @media (min-width: 768px) {
