@@ -383,12 +383,13 @@ function initShadersStuff() {
   {
     canv = document.createElement('canvas');
     canv.style.position="absolute";
+
     document.body.appendChild(canv);
     gl = canv.getContext('webgl');
 //    canv.style.cursor = 'move';
   } // canvas creation
 
-  window.addEventListener('mousemove', mouseMove);
+  // window.addEventListener('mousemove', mouseMove);
 
   initShadersStuff();
 
