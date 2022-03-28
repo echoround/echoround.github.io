@@ -391,6 +391,8 @@ function initShadersStuff() {
 
     document.body.appendChild(canv);
     gl = canv.getContext('webgl');
+
+
 //    canv.style.cursor = 'move';
   } // canvas creation
 
