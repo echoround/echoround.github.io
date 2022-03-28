@@ -9,13 +9,9 @@
 }
 
 html, body {
-/* 
-  font-family: "Mukta", sans-serif;
-  font-size: 1rem; */
 
-  font-family: 'Montserrat', sans-serif;
-font-size: 14px;
-font-weight: 100;
+  font-family: "Mukta", sans-serif;
+  font-size: 1rem;
 
   background: #0f0c29;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
