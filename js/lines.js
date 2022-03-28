@@ -7,16 +7,6 @@ var NUM_PARTICLES = ( ( ROWS = 200 ) * ( COLS = 600 ) ),
     DRAG = 0.95,
     EASE = 0.5,
 
-    /*
-
-    used for sine approximation, but Math.sin in Chrome is still fast enough :)http://jsperf.com/math-sin-vs-sine-approximation
-
-    B = 4 / Math.PI,
-    C = -4 / Math.pow( Math.PI, 2 ),
-    P = 0.225,
-
-    */
-
     container,
     particle,
     canvas,

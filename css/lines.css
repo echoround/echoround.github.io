@@ -580,3 +580,14 @@ a:hover, a:visited:hover {
 
 /* SIMPLE BUTTON */
 .button-58 {}
+
+
+  body {
+    background-color: #000;
+    margin: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+  canvas {
+    position : absolute;
+  }
