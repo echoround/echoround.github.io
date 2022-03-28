@@ -285,15 +285,17 @@ function relativeCoord (element, clientX, clientY) {
 }
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-function mouseMove (event) {
+// function mouseMove (event) {
+//
+//   let clx, cly;
+// //  if (event.buttons & 1) { // if left button
+//     [clx, cly] = relativeCoord(canv, event.clientX, event.clientY);
+//     mousePos.x = clx;
+//     mousePos.y = cly;
+// //  }
+// } // mouseMove
 
-  let clx, cly;
-//  if (event.buttons & 1) { // if left button
-    [clx, cly] = relativeCoord(canv, event.clientX, event.clientY);
-    mousePos.x = clx;
-    mousePos.y = cly;
-//  }
-} // mouseMove
+
 
 //---------------------------------------------------------
 
