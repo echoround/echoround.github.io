@@ -386,8 +386,8 @@ function initShadersStuff() {
     canv = document.createElement('canvas');
     canv.style.position="fixed";
     canv.style.display="block";
-    
 
+    // ctx = this.canvas.getContext('2d');
 
     document.body.appendChild(canv);
     gl = canv.getContext('webgl');
