@@ -19,7 +19,15 @@
         margin-bottom: 20px; /* Space at the bottom of each card */
         max-width: 100%;
         border-radius: 0; /* Removes the rounded corners from the cards */
+        transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition for scaling and color change */
+    /* Other styles... */
       }
+      
+      .card:hover {
+    transform: scale(1.05); /* Scales the card to 105% of its original size */
+    background-color: #4a62d7; /* New background color on hover */
+    }
+
       .card-body {
         color: #ffffff; /* Sets the text color to white */
       }
