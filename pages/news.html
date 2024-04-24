@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Comment Section</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Comment Section Container -->
+    <div class="container mt-5">
+        <!-- Comment Form -->
+        <div class="mb-4">
+            <h2>Leave a Comment</h2>
+            <form id="commentForm">
+                <div class="mb-3">
+                    <label for="comment" class="form-label">Comment</label>
+                    <textarea class="form-control" id="comment" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+
+        <!-- Comments Display -->
+        <div id="commentsSection" class="mt-4">
+            <h3>Comments</h3>
+            <ul id="commentsList" class="list-unstyled">
+                <!-- Comments will be appended here -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- jQuery for Interactivity -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Script to Handle Comment Submission -->
+    <script>
+        $(document).ready(function() {
+            $('#commentForm').on('submit', function(event) {
+                event.preventDefault(); // Prevent page refresh on form submission
+
+                // Get the comment text from the form
+                var commentText = $('#comment').val().trim();
+                
+                if (commentText) {
+                    // Create a new list item for the comment
+                    var newComment = $('<li>').addClass('mb-3');
+                    
+                    // Add content to the list item
+                    var commentContent = $('<div>').addClass('d-flex align-items-center');
+                    commentContent.append($('<strong>').addClass('me-2').text('User:'));
+                    commentContent.append($('<span>').text(commentText));
+                    
+                    newComment.append(commentContent);
+                    
+                    // Append the new comment to the list
+                    $('#commentsList').append(newComment);
+                    
+                    // Clear the comment textarea
+                    $('#comment').val('');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
